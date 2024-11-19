@@ -1,0 +1,109 @@
+/* Resetando margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilo do container que contém os cartões */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Estilo do cartão */
+.card {
+    background: linear-gradient(to bottom, #ff5722, #f44336);
+    color: white;
+    width: 300px;
+    padding: 90px;
+    border-radius: 35px;
+    text-align: center;
+    box-shadow: 0 5px 20px #b94825;
+    transition: transform 0.3s ease;
+}
+
+/* Efeito de aumento do cartão ao passar o mouse */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo da imagem de perfil */
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo do nome (h2) */
+h2 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    }
+
+/* Estilo da descrição (p) */
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+/* Estilo dos ícones de redes sociais */
+.social-icons {
+    margin: 10px 0;
+}
+
+.social-icons i {
+    font-size: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+/* Estilo do botão */
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #ff5722;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Efeito hover no botão */
+button:hover {
+    background-color: #ffd6c8;
+}
+
+/* Estilo do link "Learn More" */
+a {
+    display: block;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+/* Efeito hover no link */
+a:hover {
+    text-decoration: underline;
+}
